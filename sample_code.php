@@ -1,3 +1,5 @@
+<?php
+
     // Request Various Status
     //1 = Pending
     //2 = Approved
