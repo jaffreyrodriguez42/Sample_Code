@@ -1,0 +1,4 @@
+The file "sample_code" is part of my asset management system using Laravel. It shows the flow of how "Deny", "Tag as returned" and "Approved" buttons work. If non-admin user creates request, the admin user has the option to "Deny" or "Approve" the request. If the non-admin user's request is "Approved", the system automatically set the status of the request to "Approved" and automatically look for an asset that is "Available" and with the right asset category. And lastly, once the asset is returned back, the availabilty of the asset changes to "Available" and can be borrowed again by other non-admin users.
+
+I also included 1 crud that includes the controller, model,view and the route file for that crud/functions. The crud is about the Category of the asset. It shows how category is created, read, updated and destroyed. I also added a sample javaascript code and the IDE I use is Sublime 3.
+
